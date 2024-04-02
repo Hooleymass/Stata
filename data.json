@@ -1,0 +1,22 @@
+{
+    "data":{
+        "members": {
+            "John Doe": {
+                "shares": {
+                    "amount": 1,
+                    "intrest": 15,
+                    "loan": 5000,
+                    "weeklypaid": 350
+                }
+            },
+            "James Doe":{
+                "shares":{
+                    "amount": 1,
+                    "intrest": 15,
+                    "loan": 5000,
+                    "weeklypaid": 350
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sacco</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Members</h1>
+        <h2>mfmfmmf</h2>
+        <h6>ydhdhd</h6>
+      </div>
+      <div id="list"></div>
+    </main>
+    <script>
+      const members = document.getElementById("list");
+      async function data() {
+        const res = await fetch("./data.json");
+        const data = await res.json();
+        console.log(data);
+      }
+      const mem = data();
+
+      members.innerText = mem[1];
+    </script>
+  </body>
+</html>
